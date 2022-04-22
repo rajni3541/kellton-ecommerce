@@ -1,4 +1,4 @@
-import './header.style.scss'
+import './header.styles.scss'
 
 import { ReactComponent as Logo } from '../../assets/crwns.svg'
 
@@ -14,7 +14,7 @@ const Header= () =>{
                     <Logo className='logo'/>
                 </Link>
                 
-                <div className='option'>
+                <div className='options'>
                     <Link
                         className='option'
                         to='/shop'>
